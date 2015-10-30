@@ -7,17 +7,18 @@
     <script src="js/homeJS.js"></script>
 </head>
 <body bgcolor="#000000">
-    <video id="bacVideo" style="width: 99.1vw; height: 99.1vh; opacity: 0.15;" loop="true" autoplay>
+    <video id="bacVideo" style="width: 99.1vw; height: 99.1vh; opacity: 0.15;" loop autoplay>
         <source src="video.mp4" type="video/mp4"/>
     </video>
     <div id="mainBoard">
         <script>create();</script>
         <footer id="footer_home">
-            <div name="div_logo" style="position:absolute;left: 3%">
+            <div style="position:absolute;left: 3%">
                 <img src="image/logo.png" style="height: 10vh; width: auto;left: 10%"/>
             </div>
         </footer>
-        <iframe id="window_f_1_1" class="byeWindow"/>
+        <iframe src="functionHtml/f11.html" id="window_f_1_1" class="byeWindow"></iframe>
+        <iframe src="functionHtml/f12.html" id="window_f_1_2" class="byeWindow"></iframe>
     </div>
 </body>
 </html>

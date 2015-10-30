@@ -318,6 +318,22 @@ footer, header, hgroup, menu, nav, section {
 	opacity: 0.8;
 }
 
+.f_1_2_back{
+	position: absolute;
+	border: 0;
+	width: 5.263vw;
+	height: 10vh;
+	background: url(../image/f_1_2_back.png) no-repeat;
+	background-size: 100%, 100%;
+	opacity: 0.8;
+}
+
+.f_1_2_back:hover {
+	background: url(../image/f_1_2_back_hover.png) no-repeat;
+	background-size: 100%, 100%;
+	opacity: 0.8;
+}
+
 .f_1_new{
 	position: absolute;
 	border: 0;
@@ -351,7 +367,6 @@ footer, header, hgroup, menu, nav, section {
 .byeWindow{
 	position: fixed;
 	visibility: hidden;
-	opacity: 0;
 }
 
 #footer_home{

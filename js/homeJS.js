@@ -40,7 +40,7 @@
         }else{
             video.muted = true;
         }
-    };
+    }
 
     //获取特殊按钮的ID
     function getBlankID(str){
@@ -107,9 +107,12 @@
         blank_f_1_1.setAttribute("class","f_1_1");
         blank_f_1_1.setAttribute("onclick","initF_1_1()");
         blank_f_1_2.setAttribute("class","f_1_2");
+        blank_f_1_2.setAttribute("onclick","initF_1_2()");
         blank_f_1_new.setAttribute("class","f_1_new");
         var newWindow = document.getElementById("window_f_1_1");
         newWindow.setAttribute("class","byeWindow");
+        var newWindow2 = document.getElementById("window_f_1_2");
+        newWindow2.setAttribute("class","byeWindow");
     }
 
     function backFunction1(){
@@ -148,16 +151,26 @@
                 blank_f_1_1.setAttribute("class","f_1_1_back");
                 blank_f_1_1.setAttribute("onclick","goFunction1()");
                 break;
+            case 2:
+                blank_f_1_2.setAttribute("class","f_1_2_back");
+                blank_f_1_2.setAttribute("onclick","goFunction1()");
+                break;
         }
-
     }
 
     function initF_1_1(){
         removeALLFromF1(1);
         var newWindow = document.getElementById("window_f_1_1");
-        newWindow.setAttribute("src","f11.html");
         newWindow.setAttribute("class","newWindow");
-        var leftVW = 5.263 * 6;
+        var leftVW = 5.263 * 6 - 0.14;
+        newWindow.setAttribute("style","left:"+leftVW+"vw;");
+    }
+
+    function initF_1_2(){
+        removeALLFromF1(2);
+        var newWindow = document.getElementById("window_f_1_2");
+        newWindow.setAttribute("class","newWindow");
+        var leftVW = 5.263 * 5 - 0.14;
         newWindow.setAttribute("style","left:"+leftVW+"vw;");
     }
 
