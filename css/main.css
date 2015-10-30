@@ -350,6 +350,198 @@ footer, header, hgroup, menu, nav, section {
 	opacity: 0.8;
 }
 
+.f_3_1{
+    position: absolute;
+    border: 0;
+    width: 5.263vw;
+    height: 10vh;
+    background: url(../image/f_3_1.png) no-repeat;
+    background-size: 100%, 100%;
+    opacity: 0.8;
+}
+
+.f_3_1:hover {
+    background: url(../image/f_3_1_hover.png) no-repeat;
+    background-size: 100%, 100%;
+    opacity: 0.8;
+}
+
+.f_3_1_back{
+    position: absolute;
+    border: 0;
+    width: 5.263vw;
+    height: 10vh;
+    background: url(../image/f_3_1_back.png) no-repeat;
+    background-size: 100%, 100%;
+    opacity: 0.8;
+}
+
+.f_3_1_back:hover {
+    background: url(../image/f_3_1_back_hover.png) no-repeat;
+    background-size: 100%, 100%;
+    opacity: 0.8;
+}
+
+.f_3_2{
+    position: absolute;
+    border: 0;
+    width: 5.263vw;
+    height: 10vh;
+    background: url(../image/f_3_2.png) no-repeat;
+    background-size: 100%, 100%;
+    opacity: 0.8;
+}
+
+.f_3_2:hover {
+    background: url(../image/f_3_2_hover.png) no-repeat;
+    background-size: 100%, 100%;
+    opacity: 0.8;
+}
+
+.f_3_2_back{
+    position: absolute;
+    border: 0;
+    width: 5.263vw;
+    height: 10vh;
+    background: url(../image/f_3_2_back.png) no-repeat;
+    background-size: 100%, 100%;
+    opacity: 0.8;
+}
+
+.f_3_2_back:hover {
+    background: url(../image/f_3_2_back_hover.png) no-repeat;
+    background-size: 100%, 100%;
+    opacity: 0.8;
+}
+
+.f_3_3{
+    position: absolute;
+    border: 0;
+    width: 5.263vw;
+    height: 10vh;
+    background: url(../image/f_3_3.png) no-repeat;
+    background-size: 100%, 100%;
+    opacity: 0.8;
+}
+
+.f_3_3:hover {
+    background: url(../image/f_3_3_hover.png) no-repeat;
+    background-size: 100%, 100%;
+    opacity: 0.8;
+}
+
+.f_3_3_back{
+    position: absolute;
+    border: 0;
+    width: 5.263vw;
+    height: 10vh;
+    background: url(../image/f_3_3_back.png) no-repeat;
+    background-size: 100%, 100%;
+    opacity: 0.8;
+}
+
+.f_3_3_back:hover {
+    background: url(../image/f_3_3_back_hover.png) no-repeat;
+    background-size: 100%, 100%;
+    opacity: 0.8;
+}
+
+.f_3_new{
+    position: absolute;
+    border: 0;
+    width: 5.263vw;
+    height: 10vh;
+    background: url(../image/f_3_new.png) no-repeat;
+    background-size: 100%, 100%;
+    opacity: 0.8;
+}
+
+.f_3_new:hover {
+    background: url(../image/f_3_new_hover.png) no-repeat;
+    background-size: 100%, 100%;
+    opacity: 0.8;
+}
+
+.f_4_1{
+	position: absolute;
+	border: 0;
+	width: 5.263vw;
+	height: 10vh;
+	background: url(../image/f_4_1.png) no-repeat;
+	background-size: 100%, 100%;
+	opacity: 0.8;
+}
+
+.f_4_1:hover {
+	background: url(../image/f_4_1_hover.png) no-repeat;
+	background-size: 100%, 100%;
+	opacity: 0.8;
+}
+
+.f_4_1_back{
+    position: absolute;
+    border: 0;
+    width: 5.263vw;
+    height: 10vh;
+    background: url(../image/f_4_1_back.png) no-repeat;
+    background-size: 100%, 100%;
+    opacity: 0.8;
+}
+
+.f_4_1_back:hover {
+    background: url(../image/f_4_1_back_hover.png) no-repeat;
+    background-size: 100%, 100%;
+    opacity: 0.8;
+}
+
+.f_4_2{
+	position: absolute;
+	border: 0;
+	width: 5.263vw;
+	height: 10vh;
+	background: url(../image/f_4_2.png) no-repeat;
+	background-size: 100%, 100%;
+	opacity: 0.8;
+}
+
+.f_4_2:hover {
+	background: url(../image/f_4_2_hover.png) no-repeat;
+	background-size: 100%, 100%;
+	opacity: 0.8;
+}
+
+.f_4_2_back{
+    position: absolute;
+    border: 0;
+    width: 5.263vw;
+    height: 10vh;
+    background: url(../image/f_4_2_back.png) no-repeat;
+    background-size: 100%, 100%;
+    opacity: 0.8;
+}
+
+.f_4_2_back:hover {
+    background: url(../image/f_4_2_back_hover.png) no-repeat;
+    background-size: 100%, 100%;
+    opacity: 0.8;
+}
+
+.f_4_new{
+	position: absolute;
+	border: 0;
+	width: 5.263vw;
+	height: 10vh;
+	background: url(../image/f_4_new.png) no-repeat;
+	background-size: 100%, 100%;
+	opacity: 0.8;
+}
+
+.f_4_new:hover {
+	background: url(../image/f_4_new_hover.png) no-repeat;
+	background-size: 100%, 100%;
+	opacity: 0.8;
+}
+
 .newWindow{
 	position: fixed;
 	left: 36.841vw;
