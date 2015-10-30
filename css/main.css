@@ -270,6 +270,90 @@ footer, header, hgroup, menu, nav, section {
 	opacity: 0.8;
 }
 
+.f_1_1{
+	position: absolute;
+	border: 0;
+	width: 5.263vw;
+	height: 10vh;
+	background: url(../image/f_1_1.png) no-repeat;
+	background-size: 100%, 100%;
+	opacity: 0.8;
+}
+
+.f_1_1:hover {
+	background: url(../image/f_1_1_hover.png) no-repeat;
+	background-size: 100%, 100%;
+	opacity: 0.8;
+}
+
+.f_1_1_back{
+	position: absolute;
+	border: 0;
+	width: 5.263vw;
+	height: 10vh;
+	background: url(../image/f_1_1_back.png) no-repeat;
+	background-size: 100%, 100%;
+	opacity: 0.8;
+}
+
+.f_1_1_back:hover {
+	background: url(../image/f_1_1_back_hover.png) no-repeat;
+	background-size: 100%, 100%;
+	opacity: 0.8;
+}
+
+.f_1_2{
+	position: absolute;
+	border: 0;
+	width: 5.263vw;
+	height: 10vh;
+	background: url(../image/f_1_2.png) no-repeat;
+	background-size: 100%, 100%;
+	opacity: 0.8;
+}
+
+.f_1_2:hover {
+	background: url(../image/f_1_2_hover.png) no-repeat;
+	background-size: 100%, 100%;
+	opacity: 0.8;
+}
+
+.f_1_new{
+	position: absolute;
+	border: 0;
+	width: 5.263vw;
+	height: 10vh;
+	background: url(../image/f_1_new.png) no-repeat;
+	background-size: 100%, 100%;
+	opacity: 0.8;
+}
+
+.f_1_new:hover {
+	background: url(../image/f_1_new_hover.png) no-repeat;
+	background-size: 100%, 100%;
+	opacity: 0.8;
+}
+
+.newWindow{
+	position: fixed;
+	left: 36.841vw;
+	top:0;
+	width: 57.893vw;
+	height: 90vh;
+	background: white;
+	opacity: 0.6;
+}
+
+.newWindow:hover{
+	opacity: 1;
+}
+
+.byeWindow{
+	position: fixed;
+	visibility: hidden;
+	opacity: 0;
+}
+
 #footer_home{
 	position: fixed;
 	width: 100vw;

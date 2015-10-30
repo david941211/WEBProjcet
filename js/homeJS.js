@@ -50,6 +50,9 @@
             case "function_3":return "button_block_5_4";
             case "function_4":return "button_block_4_5";
             case "function_5":return "button_block_5_5";
+            case "f_1_1":return "button_block_3_5";
+            case "f_1_2":return "button_block_4_4";
+            case "f_1_new":return "button_block_3_3";
         }
     }
 
@@ -59,11 +62,17 @@
         var blank_function_3 = document.getElementById(getBlankID("function_3"));
         var blank_function_4 = document.getElementById(getBlankID("function_4"));
         var blank_function_5 = document.getElementById(getBlankID("function_5"));
+        var blank_f_1_1 = document.getElementById(getBlankID("f_1_1"));
+        var blank_f_1_2 = document.getElementById(getBlankID("f_1_2"));
+        var blank_f_1_new = document.getElementById(getBlankID("f_1_new"));
         blank_function_1.removeAttribute("onclick");
         blank_function_2.removeAttribute("onclick");
         blank_function_3.removeAttribute("onclick");
         blank_function_4.removeAttribute("onclick");
         blank_function_5.removeAttribute("onclick");
+        blank_f_1_1.removeAttribute("onclick");
+        blank_f_1_2.removeAttribute("onclick");
+        blank_f_1_new.removeAttribute("onclick");
     }
 
     function gainAllOnclick(){
@@ -85,6 +94,9 @@
         var blank_function_3 = document.getElementById(getBlankID("function_3"));
         var blank_function_4 = document.getElementById(getBlankID("function_4"));
         var blank_function_5 = document.getElementById(getBlankID("function_5"));
+        var blank_f_1_1 = document.getElementById(getBlankID("f_1_1"));
+        var blank_f_1_2 = document.getElementById(getBlankID("f_1_2"));
+        var blank_f_1_new = document.getElementById(getBlankID("f_1_new"));
         removeAllOnclick();
         blank_function_1.setAttribute("class","function_1_back");
         blank_function_1.setAttribute("onclick","backFunction1()");
@@ -92,6 +104,12 @@
         blank_function_3.setAttribute("class","block");
         blank_function_4.setAttribute("class","block");
         blank_function_5.setAttribute("class","block");
+        blank_f_1_1.setAttribute("class","f_1_1");
+        blank_f_1_1.setAttribute("onclick","initF_1_1()");
+        blank_f_1_2.setAttribute("class","f_1_2");
+        blank_f_1_new.setAttribute("class","f_1_new");
+        var newWindow = document.getElementById("window_f_1_1");
+        newWindow.setAttribute("class","byeWindow");
     }
 
     function backFunction1(){
@@ -100,12 +118,47 @@
         var blank_function_3 = document.getElementById(getBlankID("function_3"));
         var blank_function_4 = document.getElementById(getBlankID("function_4"));
         var blank_function_5 = document.getElementById(getBlankID("function_5"));
+        var blank_f_1_1 = document.getElementById(getBlankID("f_1_1"));
+        var blank_f_1_2 = document.getElementById(getBlankID("f_1_2"));
+        var blank_f_1_new = document.getElementById(getBlankID("f_1_new"));
+        removeAllOnclick();
         gainAllOnclick();
+        blank_f_1_1.setAttribute("class","block");
+        blank_f_1_2.setAttribute("class","block");
+        blank_f_1_new.setAttribute("class","block");
         blank_function_1.setAttribute("class","function_1");
         blank_function_2.setAttribute("class","function_2");
         blank_function_3.setAttribute("class","function_3");
         blank_function_4.setAttribute("class","function_4");
         blank_function_5.setAttribute("class","function_5");
+    }
+
+    function removeALLFromF1(index){
+        var blank_function_1 = document.getElementById(getBlankID("function_1"));
+        var blank_f_1_1 = document.getElementById(getBlankID("f_1_1"));
+        var blank_f_1_2 = document.getElementById(getBlankID("f_1_2"));
+        var blank_f_1_new = document.getElementById(getBlankID("f_1_new"));
+        blank_function_1.setAttribute("class","block");
+        blank_f_1_1.setAttribute("class","block");
+        blank_f_1_2.setAttribute("class","block");
+        blank_f_1_new.setAttribute("class","block");
+        removeAllOnclick();
+        switch (index){
+            case 1:
+                blank_f_1_1.setAttribute("class","f_1_1_back");
+                blank_f_1_1.setAttribute("onclick","goFunction1()");
+                break;
+        }
+
+    }
+
+    function initF_1_1(){
+        removeALLFromF1(1);
+        var newWindow = document.getElementById("window_f_1_1");
+        newWindow.setAttribute("src","f11.html");
+        newWindow.setAttribute("class","newWindow");
+        var leftVW = 5.263 * 6;
+        newWindow.setAttribute("style","left:"+leftVW+"vw;");
     }
 
     function goFunction2(){
