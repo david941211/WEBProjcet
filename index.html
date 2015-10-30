@@ -16,7 +16,7 @@
 	<body>
 		<section class="panel home" data-section-name="home" style="text-align: center; position: relative;">
 			<img src="image/indexBac.png" style="position: absolute; width: 99vw;height: 99vh;left: 0;top: 0"/>
-			<video style="width: 99.1vw; height: auto; opacity: 0.15;" loop="true" autoplay>
+			<video style="width: 99.1vw; height: auto; opacity: 0.15;" loop autoplay>
 				<source src="video.mp4" type="video/mp4"/>
 			</video>
 		</section>
@@ -56,7 +56,7 @@
 		<div class="split"></div>
 		<section class="panel overview_3" data-section-name="overview_3">
 			<article style="position: absolute; width: 40vw;height: 87vh;
-				right: 0%; top: 0%;background: rgba(0,0,0,0.3);">
+				right: 0; top: 0;background: rgba(0,0,0,0.3);">
 				<header style="color:whitesmoke;font-size: 250%;font-weight: bold;
 					position: absolute; top: 30%;left: 2%">
 					专为女性打造。
@@ -76,7 +76,7 @@
 				<img src="image/index_footer.png" style="position:absolute;width: 99.1vw; height: 80vh;top: 7%">
 			</a>
 			<article style="position: absolute; width: 40vw;height: 87vh;
-				right: 0%; top: 0%;background: rgba(0,0,0,0.3);">
+				right: 0; top: 0;background: rgba(0,0,0,0.3);">
 				<header style="color:whitesmoke;font-size: 250%;font-weight: bold;
 					position: absolute; top: 34%;left: 2%">
 					推荐可穿戴设备。
@@ -92,23 +92,23 @@
 		</section>
 		<!--header，虽然丢在最下头！但他还是只header！-->
 		<header id="header_index">
-			<div name="div_logo" style="position:absolute;left: 3%">
+			<div style="position:absolute;left: 3%">
 				<a href="index.html"><img src="image/logo.png" style="height: 14vh; width: auto;left: 10%"/></a>
 			</div>
-			<div name="div_form" style="position: absolute;left: 70%;top:0;width:30vw;height:13vh;font-size: 120%">
+			<div style="position: absolute;left: 70%;top:0;width:30vw;height:13vh;font-size: 120%">
 				<form>
 					<div>
 						<section style="position:absolute;top: 20%">
 							<span class="login_span">用户名：</span>
-							<input class="login_in" type="text" size="21"/>
+							<label><input class="login_in" type="text" size="21"/></label>
 						</section>
 						<section style="position:absolute;bottom: 20%">
 							<span class="login_span">密&nbsp&nbsp&nbsp码：</span>
-							<input class="login_in" type="password" size="21"/>
+							<label><input class="login_in" type="password" size="21"/></label>
 						</section>
 					</div>
 					<div>
-						<button id="bt_header_login" onClick="javascript:window.open('home.html')">登录</button>
+						<button id="bt_header_login" onClick="window.open('home.html')">登录</button>
 						<button id="bt_header_register">注册</button>
 					</div>
 				</form>
