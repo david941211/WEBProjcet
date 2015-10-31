@@ -548,8 +548,8 @@ footer, header, hgroup, menu, nav, section {
 	top:0;
 	width: 57.893vw;
 	height: 90vh;
-	background: white;
-	opacity: 0.6;
+	background: rgba(0,0,0,0);
+	opacity: 0.9;
 }
 
 .newWindow:hover{
