@@ -2,9 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>CHING'S FITNESS - 体脂计算</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/fcss.css" />
+    <script src="../js/functionInfo.js"></script>
 </head>
-<body>
-    I'M FUNCTION_1_2
+<body style="background: rgba(116,207,176,0.3);">
+    <img src="../fImage/f12_back.png" class="bacImage"/>
+    <div>
+        <label><input type="text" id="tf_age"/></label>
+        <label><input type="text" id="tf_height"/></label>
+        <label><input type="text" id="tf_weight"/></label>
+    </div>
+    <p id="p_12_1" class="bfr"></p>
+    <p id="p_12_2" class="bfr_result"></p>
+    <button type="button" id="bt_f12" onclick="sendBFR()">鉴定</button>
 </body>
 </html>

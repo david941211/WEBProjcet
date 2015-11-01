@@ -193,7 +193,7 @@
         var newWindow = document.getElementById("window_f_1_2");
         newWindow.setAttribute("class","newWindow");
         var leftVW = 5.263 * 5 - 0.14;
-        newWindow.setAttribute("style","left:"+leftVW+"vw;");
+        newWindow.setAttribute("style","left:"+leftVW+"vw;top: 20vh; height: 50vh;width:36.841vw;");
     }
 
     function goFunction2(){
