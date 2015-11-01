@@ -2,7 +2,7 @@
  * Created by ACER on 2015/10/28.
  */
 
-    //»Ø¹é³õÊ¼×´Ì¬
+    //ï¿½Ø¹ï¿½ï¿½Ê¼×´Ì¬
     function create() {
         var board = document.getElementById("mainBoard");
         for (var j = 0; j < 10; j++) {
@@ -31,7 +31,7 @@
         gainAllOnclick();
     }
 
-    //¸Ä±ä±³¾°ÊÓÆµÊÇ·ñ¾²Òô
+    //ï¿½Ä±ä±³ï¿½ï¿½ï¿½ï¿½Æµï¿½Ç·ï¿½ï¿½ï¿½
     function changeVideoMute()
     {
         var video = document.getElementById("bacVideo");
@@ -42,7 +42,7 @@
         }
     }
 
-    //»ñÈ¡ÌØÊâ°´Å¥µÄID
+    //ï¿½ï¿½È¡ï¿½ï¿½ï¿½â°´Å¥ï¿½ï¿½ID
     function getBlankID(str){
         switch(str){
             case "function_1":return "button_block_3_4";
@@ -193,7 +193,7 @@
         var newWindow = document.getElementById("window_f_1_2");
         newWindow.setAttribute("class","newWindow");
         var leftVW = 5.263 * 5 - 0.14;
-        newWindow.setAttribute("style","left:"+leftVW+"vw;top: 20vh; height: 50vh;width:36.841vw;");
+        newWindow.setAttribute("style","left:"+leftVW+"vw;top: 10vh; height: 50vh;width:36.841vw;");
     }
 
     function goFunction2(){
@@ -327,7 +327,7 @@
         var newWindow = document.getElementById("window_f_3_2");
         newWindow.setAttribute("class","newWindow");
         var leftVW = 5.263 * 6 - 0.14;
-        newWindow.setAttribute("style","left:"+leftVW+"vw;");
+        newWindow.setAttribute("style","left:"+leftVW+"vw;width:42.104vw;");
     }
 
     function initF_3_3(){
@@ -335,7 +335,7 @@
         var newWindow = document.getElementById("window_f_3_3");
         newWindow.setAttribute("class","newWindow");
         var leftVW = 5.263 * 5 - 0.14;
-        newWindow.setAttribute("style","left:"+leftVW+"vw;");
+        newWindow.setAttribute("style","left:"+leftVW+"vw;width:42.104vw;");
     }
 
     function goFunction4(){
@@ -408,12 +408,15 @@
         }
     }
 
+    var mainDocument;
+
     function initF_4_1(){
+        mainDocument = document;
         removeALLFromF4(1);
         var newWindow = document.getElementById("window_f_4_1");
         newWindow.setAttribute("class","newWindow");
         var leftVW = 5.263 * 7 - 0.14;
-        newWindow.setAttribute("style","left:"+leftVW+"vw;");
+        newWindow.setAttribute("style","left:"+leftVW+"vw;top: 10vh; height: 50vh;width:36.841vw;");
     }
 
     function initF_4_2(){
@@ -421,7 +424,11 @@
         var newWindow = document.getElementById("window_f_4_2");
         newWindow.setAttribute("class","newWindow");
         var leftVW = 5.263 * 6 - 0.14;
-        newWindow.setAttribute("style","left:"+leftVW+"vw;");
+        newWindow.setAttribute("style","left:"+leftVW+"vw;top: 20vh; height: 50vh;width:36.841vw;");
+    }
+
+    function F_4_1_submit(){
+        alert("å·²æäº¤ï¼Œè¯·è€å¿ƒç­‰å¾…åŒ»å¸ˆå›žç­”ï¼");
     }
 
     function goFunction5(){
@@ -440,7 +447,7 @@
         var newWindow = document.getElementById("window_f_5");
         newWindow.setAttribute("class","newWindow");
         var leftVW = 5.263 * 6 - 0.14;
-        newWindow.setAttribute("style","left:"+leftVW+"vw;");
+        newWindow.setAttribute("style","left:"+leftVW+"vw;top: 20vh; height: 50vh;width:36.841vw;");
     }
 
     function backFunction5(){

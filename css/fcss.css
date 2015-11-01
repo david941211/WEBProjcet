@@ -188,3 +188,98 @@
     font-size:110%;
     color: white;
 }
+
+#bt_f41{
+    position: absolute;
+    width: 19.7%;
+    height: 9%;
+    top: 86.1%;
+    left: 76%;
+    background: white;
+    color: black;
+    font-size: 150%
+}
+
+#bt_f41:hover{
+    background: #d5e3ee;
+}
+
+.f41_div{
+    height: 25%;
+    background: rgba(247, 255, 246, 0.8);
+    font-size: 130%;
+}
+
+.f41_div:hover{
+    background: rgba(174, 252, 255, 0.5);
+}
+
+#bt_f5_1{
+    position: absolute;
+    width: 12%;
+    height: auto;
+    top: 10.6%;
+    left: 85.2%;
+    height: 5.7%;
+    background: rgba(122, 121, 123, 0.9);
+}
+
+#bt_f5_1:hover{
+    background: #59566d;
+}
+
+.pass_f5{
+    position: absolute;
+    width: 50%;
+    height: auto;
+    left: 23.9%;
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 130%;
+}
+
+.pass_f5:focus{
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#bt_f5_2{
+    position: absolute;
+    width: 12%;
+    height: auto;
+    top: 39.2%;
+    left: 77.2%;
+    height: 5.7%;
+    background: rgba(122, 121, 123, 0.9);
+}
+
+#bt_f5_2:hover{
+    background: #59566d;
+}
+
+#bt_f5_3{
+    position: absolute;
+    width: 12%;
+    height: auto;
+    top: 56.3%;
+    left: 77.2%;
+    height: 5.7%;
+    background: rgba(122, 121, 123, 0.9);
+}
+
+#bt_f5_3:hover{
+    background: #59566d;
+}
+
+#bt_f5_4{
+    position: absolute;
+    width: 12%;
+    height: auto;
+    top: 81.4%;
+    left: 77.2%;
+    height: 5.7%;
+    background: rgba(122, 121, 123, 0.9);
+}
+
+#bt_f5_4:hover{
+    background: #59566d;
+}

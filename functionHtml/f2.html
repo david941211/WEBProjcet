@@ -2,9 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>CHING'S FITNESS - 我的睡眠</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/fcss.css" />
+    <script src="../js/functionInfo.js"></script>
+    <script src="../js/ichart.1.2.min.js"></script>
 </head>
-<body>
-    I'M FUNCTION_2
+<body style="background: rgba(97,196,210,0.3)">
+    <img src="../fImage/f2_back.png" class="bacImage"/>
+    <div>
+        <select onchange="setSleepData(this.value)" style="position: absolute;width: 23.7%;height: auto;font-size: 120%;
+        left: 15.7%;top: 9.1%;text-align: center;color: #2b2b2b;background: rgba(255,255,255,0.8)">
+            <option value="0">2015.11.1</option>
+            <option value="1">暂时还没加监听</option>
+        </select>
+        <p style="position: absolute;width: 23.7%;height: auto;font-size: 120%;left: 15.7%;top: 18.38%;color: white">27900 分钟</p>
+        <p style="position: absolute;width: 23.7%;height: auto;font-size: 120%;left: 15.7%;top: 23.75%;color: white">2 次</p>
+        <p style="position: absolute;width: 22.2%;height: auto;font-size: 120%;left: 15.7%;top: 29.2%;color: white">
+            本次睡眠半清醒状态过多以及清醒次数表明夜里可能没有获得很好的休息。</p>
+    </div>
+    <div id="f2_circle" style="background: rgba(0,0,0,0); position: absolute; width: 46.1%;height: 36%;left: 51.3%;top: 3.9%">
+        <script>drawSleepCircle()</script>
+    </div>
+    <div id="f2_change" style="background: rgba(0,0,0,0); position: absolute; width: 72%;height: 47.2%;left: 17.68%;top: 48.6%">
+        <script>drawSleepChange()</script>
+    </div>
 </body>
 </html>
