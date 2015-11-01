@@ -36,6 +36,9 @@ function getDocAdviseOnBMI(){
     var highW = parseFloat(25*getHeight()*getHeight()).toFixed(0);
     var stillNeed = parseFloat((18.5*getHeight()*getHeight()-getWeight())*2988.4).toFixed(1);
     var needToReduce = parseFloat((getWeight()-24.9*getHeight()*getHeight())*2988.4).toFixed(1);
+    if(!(BMI > 0)){
+        return "医师建议你检查一下有没有将您的体重或者身高输入错误哦。否则无法帮您正确地判断BMI健康指数。";
+    }
     if(BMI < 15){
         return "根据BMI分析结果显示，你的身体现在处于严重偏瘦的状态。需要多摄取点能量来补充给身体啦！你的身高的标准体重区间为"+lowW+"公斤~"+highW+"公斤。加油补充能量，还需要补充"+stillNeed+"大卡能量才能达到健康的体重哦！"
     }else if(BMI >= 15 && BMI < 18.5){
@@ -47,4 +50,55 @@ function getDocAdviseOnBMI(){
     }else{
         return "根据BMI分析结果显示，你的身体现在处于肥胖的状态。加油进行一些健身活动，保持健康的心态。你的身高的标准体重区间为"+lowW+"公斤~"+highW+"公斤。还需要燃烧"+needToReduce+"大卡能量才能达到健康的体重哦！"
     }
+}
+
+function drawWeightChart(type){
+    if(type == 0) {
+        var data = [
+            {
+                name: '体重（公斤）',
+                value: [48.2, 49.1, 49.3, 49.3, 49.2, 50.1, 49.2],
+                color: '#1f7e92',
+                line_width: 3
+            }
+        ];
+        var chart;
+        chart = new iChart.LineBasic2D({
+            render: 'chart_div',
+            data: data,
+            title: '我的体重变化(过去7次)',
+            width: 800,
+            height: 400,
+            coordinate: {height: '90%', background_color: '#f6f9fa'},
+            sub_option: {
+                hollow_inside: false,//设置一个点的亮色在外环的效果
+                point_size: 16
+            },
+            labels: ["10/26", "10/27", "10/28", "10/29", "10/30", "10/31", "11/1"]
+        });
+    }else{
+        var data = [
+            {
+                name: '体重（公斤）',
+                value: [48.2, 49.1, 49.3, 49.3, 49.2, 50.1, 49.2, 49.5, 49.2],
+                color: '#1f7e92',
+                line_width: 3
+            }
+        ];
+        var chart;
+        chart = new iChart.LineBasic2D({
+            render: 'chart_div',
+            data: data,
+            title: '我的体重变化(月)',
+            width: 800,
+            height: 400,
+            coordinate: {height: '90%', background_color: '#f6f9fa'},
+            sub_option: {
+                hollow_inside: false,//设置一个点的亮色在外环的效果
+                point_size: 16
+            },
+            labels: ["1号", "4号", "8号", "11号", "15号", "18号", "22号","25号","28号"]
+        });
+    }
+    chart.draw();
 }
